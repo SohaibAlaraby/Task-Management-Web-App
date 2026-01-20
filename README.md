@@ -1,32 +1,72 @@
-# 📝 Task Management Web App
+# Task Management Web Application
 
-A clean and intuitive task management application built with vanilla web technologies. This app helps users organize their daily tasks, set priorities, and track their productivity in a streamlined interface.
+A responsive task management web application designed to help users organize, track, and prioritize their daily tasks efficiently.
+The application provides a clean and intuitive dashboard to improve productivity and task visibility.
 
-<img src="assets/images/Screenshot Main Page.png" width="1000">
+---
 
 ## 🚀 Features
 
-* **Task Creation:** Easily add new tasks with titles and descriptions.
-* **Status Tracking:** Mark tasks as "In Progress" or "Completed."
-* **Persistent Storage:** Uses browser `localStorage` to keep your tasks safe even after refreshing the page.
-* **Responsive Design:** Fully functional on desktops, tablets, and mobile phones.
-* **Priority Levels:** Categorize tasks based on urgency.
+* **User Authentication**
 
-## 📸 Screenshots
+  * Sign Up and Sign In pages
+  * Secure access to user-specific tasks
 
-| Dashboard View | Mobile Version |
-| :---: | :---: |
-| ![Dashboard] | ![Mobile] |
-| *Desktop interface with sidebar* | *Responsive mobile layout* |
+* **Task Management**
 
-## 🛠️ Tech Stack
+  * Add new tasks
+  * Edit existing tasks
+  * Delete tasks
 
-* **HTML5:** Semantic structure for better accessibility.
-* **CSS3:** Custom styling with Flexbox and Grid layouts.
-* **JavaScript (ES6):** Dynamic DOM manipulation and data logic.
+* **Task Categorization**
 
-## 📦 How to Run Locally
+  * Categorize tasks by **priority** (High, Medium, Low)
+  * Track task **status** (To-Do, In Progress, Completed)
 
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/SohaibAlaraby/Task-Management-Web-App.git](https://github.com/SohaibAlaraby/Task-Management-Web-App.git)
+* **Dashboard**
+
+  * Overview of all tasks
+  * Visual representation of task progress and completion status
+
+* **Search & Filtering**
+
+  * Search tasks by title
+  * Filter tasks based on priority and status
+
+* **Responsive Design**
+
+  * Optimized for desktop and mobile devices
+
+---
+
+## 🛠 Tech Stack
+
+* HTML
+* CSS
+* JavaScript
+
+<!-- Add React / API / Backend here if applicable -->
+
+---
+
+## 📌 Project Status
+
+This project is currently **in progress** and actively being developed with a focus on clean UI, scalability, and best practices.
+
+---
+
+## 📷 Screenshots
+
+<!-- Add screenshots here -->
+<h3>Sign In</h3> 
+<img src = "assets/images/Screenshot Sign In.png"></img>
+<h3>Sign Up</h3> 
+<img src = "assets/images/Screenshot Sign Up.png"></img>
+<h3>Main Page</h3> 
+<img src = "assets/images/Screenshot Main Page.png"></img>
+
+---
+
+## 📄 License
+
+This project is for learning and personal use.
