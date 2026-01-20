@@ -2,7 +2,7 @@
 
 A clean and intuitive task management application built with vanilla web technologies. This app helps users organize their daily tasks, set priorities, and track their productivity in a streamlined interface.
 
-![App Banner](assets/images/Screenshot%Main%Page.png)
+<img src="assets/images/Screenshot Main Page.png" width="1000">
 
 ## 🚀 Features
 
