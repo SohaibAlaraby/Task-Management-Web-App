@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Sign Up</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8" />
+        <!--Include Icons-->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        />
+        <!--Include font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        
+        <!--Include all CSS style files-->
+        <link rel="stylesheet" href="css/SignUp.css">
+    </head>
+    <body>
+        <div class="SignUp repeated_pattern">
+            <img src="assets\images\sign-up.avif" alt="A girl is signing up to the TODO app">
+
+            <form action="" target="_self" method="get" class="UserInput">
+                <h1 class="font_styling">Sign Up</h1>
+                <div class="input-wrapper">
+                    <img src="assets\icons\firstname.png" alt="First Name" class="icon">
+                    <input type="text" placeholder="Enter First Name" name="firstname">
+                </div>
+                <div class="input-wrapper">
+                    <img src="assets\icons\lastname.png" alt="Last Name" class="icon">
+                    <input type="text" placeholder="Enter Last Name" name="lastname">
+                </div>
+                <div class="input-wrapper">
+                    <img src="assets\icons\username.png" alt="User Name" class="icon">
+                    <input type="text" placeholder="Enter Username" name="username">
+                </div>
+                <div class="input-wrapper">
+                    <img src="assets\icons\mail.png" alt="Email Address" class="icon">
+                    <input type="email" placeholder="Enter Email" name="email">
+                </div>
+                <div class="input-wrapper">
+                    <img src="assets\icons\padlock.png" alt="Password" class="icon">
+                    <input type="password" placeholder="Enter Password" name="password">
+                </div>
+                <div class="input-wrapper">
+                    <img src="assets\icons\padlock2.png" alt="Confirm Password" class="icon">
+                    <input type="password" placeholder="Confirm Password" name="password-confirmation">
+                </div>
+                <div class="checkme input-wrapper">
+                    <input id="Agreement" type="checkbox" name="term-agreement">
+                    <label class="font_styling" for="Agreement">I agree to all terms</label>
+                </div>
+                <button class="btn font_styling" type="submit">Register</button>
+                <p class="font_styling">Already have an account? <a href="#">Sign In</a></p>
+                
+            </form>
+
+        </div>
+    </body>
+</html>

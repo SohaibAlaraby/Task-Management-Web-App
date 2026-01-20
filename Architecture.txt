@@ -1,0 +1,17 @@
+todo-app/
+│
+├─ index.html
+│
+├─ css/
+│   ├─ main.css        // global styles
+│   ├─ variables.css   // colors, spacing, themes
+│   └─ components.css  // todo item, buttons, inputs
+│
+├─ js/
+│   ├─ app.js          // entry point
+│   ├─ state.js        // todos state + localStorage
+│   ├─ ui.js           // render functions
+│   └─ events.js       // event listeners
+│
+└─ assets/
+    └─ icons/

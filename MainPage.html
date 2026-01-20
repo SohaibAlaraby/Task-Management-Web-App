@@ -1,0 +1,85 @@
+<html lang="en">
+    <head>
+        <title>TODO</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8" />
+        <!--Include Icons-->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        />
+        <!--Include font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        
+        <!--Include all CSS style files-->
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/MainPage.css">
+    </head>
+    <body>
+        <div class="MainLayout">
+            <header>
+                <h1><span>Dash</span>board</h1>
+                <div class="search">
+                    <input type="search" placeholder="Search your task here...">
+                    <button id="search"><img src="assets\icons\search.png" alt="Search"></button>
+                </div>
+                <div class="NotifCalDayAndDate">
+                    <div>
+                        <button id="notification"><img src="assets\icons\notification-bell.png" alt="Notifications"></button>
+                        <button id="calendar"><img src="assets\icons\calendar.png" alt="calendar"></button>
+                    </div>
+                    <div class="dayAndDate">
+                        <div id="day">Tuesday</div>
+                        <time id="date">20/06/2023</time>
+                    </div>
+                </div>
+            </header>
+            <nav>
+                <ul>
+                    <li class="personalPref">
+                        <img src="assets\images\personimage.jpg">
+                        <p>
+                            <span id="username">My Name</span> <br>
+                            <span id="useremail">My Email</span>
+                        </p>
+                    </li>
+                    <li>
+                        <img class="icons reverseY" src="assets\icons\dashboard.png">
+                        <p>Dashboard</p>
+                    </li>
+                    <li>
+                        <img class="icons" src="assets\icons\warning.png">
+                        <p>Vital Task</p>
+                    </li>
+                    <li>
+                        <img class="icons" src="assets\icons\clipboard.png">
+                        <p>My Task</p>
+                    </li>
+                    <li>
+                        <img class="icons" src="assets\icons\options-lines.png">
+                        <p>Task Categories</p>
+                    </li>
+                    <li>
+                        <img class="icons" src="assets\icons\settings.png">
+                        <p>Settings</p>
+                    </li>
+                    <li>
+                        <img class="icons" src="assets\icons\help-web-button.png">
+                        <p>Help</p>
+                    </li>
+                    
+
+
+                </ul>
+                <div id="logout">
+                    <img class="icons" src="assets\icons\logout.png">
+                    <p>Logout</p>
+                <div>
+            </nav>
+            <main></main>
+            <script src="js/UpdateDate.js"></script>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Sign In</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8" />
+        <!--Include Icons-->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        />
+        <!--Include font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        
+        <!--Include all CSS style files-->
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/SignIn.css">
+        <link rel="stylesheet" href="css/components.css">
+    </head>
+    <body>
+        <div class="SignIn repeated_pattern">
+                
+            <form action="" target="self" method = "get" class="UserInput">
+                <h1 class="font_styling">Sign In</h1>
+                <div class="Username_Input input-wrapper">
+                    <img src="assets\icons\username.png" alt="User Name" class="icon">
+                    <input type="text" placeholder="Enter Username" name="Username">
+                </div>
+                
+                <div class="Userpassowrd_Input input-wrapper">
+                    <img src="assets\icons\padlock.png" alt="Password" class="icon">
+                    <input type="password" placeholder="Enter Password" name="Password">
+                </div>
+                <div class ="checkme">
+                    <input type="checkbox" id="remember" name="RememberMe" >
+                    <label class="font_styling" for="remember">Remember Me</label>
+                </div>
+                <button class ="btn font_styling" type="submit">Login</button>
+                <pre class="font_styling">Or, Login with   <a href="#"><i class="fa-brands fa-square-facebook"></i></a>  <a href="#"><i class="fa-brands fa-google"></i></a>  <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a> 
+
+Don't have an account? <a class="font_styling" href="#"> Create One</a> 
+                </pre>
+
+            </form> 
+            <img src="assets/images/login-form-interface-vector-54318247.jpg" alt="A man is sitting on his laptob trying to log in a website">
+        </div>
+    </body>
+</html>
